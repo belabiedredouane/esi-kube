@@ -316,14 +316,29 @@ ul {
   color: #666;
   max-width: 500px;
 }
+
+.landing .text .equipe  {
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 5px 0 0;
+  color: #666;
+  max-width: 500px;
+}
+
 @media (max-width: 991px) {
   .landing .text p {
     margin: 10px auto;
+  }
+  .landing .text .equipe {
+    margin: 5px auto;
   }
 }
 @media (max-width: 767px) {
   .landing .text p {
     font-size: 18px;
+  }
+  .landing .text .equipe {
+    margin: 13px auto;
   }
 }
 .landing .image img {

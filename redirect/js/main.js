@@ -76,8 +76,9 @@ function startCount(el) {
   }, 2000 / goal);
 }
 
+//////////////////////
 $('a.yourlink').click(function(e) {
   e.preventDefault();
-  window.open('http://192.168.192.57:8001/api/v1/namespaces/default/services/rstudio1:/proxy/auth-sign-in');
+  window.open('http://192.168.248.57:8001/api/v1/namespaces/default/services/rstudio1:/proxy/auth-sign-in');
   window.open('http://yoururl2.com');
 });

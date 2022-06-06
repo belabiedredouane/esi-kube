@@ -152,13 +152,13 @@ a{
 	display: block;
 	text-align: right;
 	text-decoration: none;
-	color: #999;
+	color: #010101;
 	font-size: 0.9rem;
 	transition: .3s;
 }
 
 a:hover{
-	color: #366EE5;
+	color: #48FFD5;
 }
 
 .btn{
